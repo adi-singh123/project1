@@ -106,18 +106,36 @@ main{
 @keyframes img {
     0% {
         background-image: url(./img/img1.jpg);
+        background-repeat: no-repeat;
+        background-position: contain;
+        background-size: cover;
+        
+        
     }
 
     35% {
         background-image: url(./img/img5.webp);
+        background-repeat: no-repeat;
+        background-position: contain;
+        background-size: cover;
+        
+        
     }
 
     65% {
         background-image: url(./img/img4.jpg);
+        background-repeat: no-repeat;
+        background-position: contain;
+        background-size: cover;
+        
     }
 
     90% {
         background-image: url(./img/img8.jpg);
+        background-repeat: no-repeat;
+        background-position: contain;
+        background-size: cover;
+        
     }
 
 }
